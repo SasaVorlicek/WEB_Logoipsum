@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="media/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="media/css/styles.css" rel="stylesheet" type="text/css">
+    <title>Logoipsum</title>
+</head>
+<body>
+    <nav class="smallnavbar">
+        <p class="smallnavbar__item smallnavbar__item-first">+420 777 666 666</p>
+        <p class="smallnavbar__item smallnavbar__item-second">obchod@l3web.cz</p>
+        <p class="smallnavbar__item smallnavbar__item-third">Přihlášení</p>
+    </nav>
+    <header class="main_header">
+        <nav class="header__mainmenu">
+            <a href="index.html"><img alt="Hlavní logo" class="mainmenu__logo" src="media/images/mainlogo.svg"></a>
+            <a class="hamburger" onclick="Hamburger()" href="javascript:void(0)">
+                <img alt="Iconka hamburger menu" src="media/images/icons/hamburger.svg">
+            </a>
+            <script>
+                function Hamburger() {
+                    document.getElementById("hamburger").classList.toggle("active");
+                    }
+            </script>
+            <ul id="hamburger" class="mainmenu__list">
+                <li class="nav-active"><a href="index.html">Úvod</a></li>
+                <li><a class="list--arrow" href="funkce.html">Funkce</a></li>
+                <li><a class="list--arrow" href="#">Podpora</a></li>
+                <li><a href="#">Ceník</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li class="list--button"><a href="#">Zkušební verze</a></li>
+            </ul>
+        </nav>
+        <figure class="header__info">
+            <figcaption class="info__caption">
+                <h1><span class="colored">Řízení školy</span> ještě nebylo jednodušší</h1>
+                <p>Představujeme Software pro <span class="bolder">řízení lidských zdrojů ve škole nebylo efektivnější.</span></p>
+                <ul class="caption__list">
+                    <li>Počítá mzdové náklady</li>
+                    <li>Generuje lidi</li>
+                    <li>Tvoří budoucnost</li>
+                </ul>
+                <p class="info__cta"><a href="#" class="button">Vyzkoušejte demo</a></p>
+            </figcaption>
+            <div class="info__img"></div>
+        </figure>
+        <hr class="line1">
+        <div class="logos">
+            <img alt="Fotka loga1" src="media/images/logos/logo1.svg">
+            <img alt="Fotka loga2" src="media/images/logos/logo2.svg">
+            <img alt="Fotka loga3" src="media/images/logos/logo3.svg">
+            <img alt="Fotka loga4" src="media/images/logos/logo4.svg">
+            <img alt="Fotka loga5" src="media/images/logos/logo5.svg">
+        </div>
+    </header>
+
+    
+    <main>
+        <section class="vyhody">
+            <h2 class="section__heading">Výhody řešení</h2>
+            <div class="vyhody__definition">
+                <figure class="definition_item">
+                    <img alt="Iconka" class="vyhody__logos" src="./media/images/Vyhody/icon1.svg">
+                    <p><span class="colored">Zkracuje čas práce</span> díky velkému množství funkcí.</p>
+                </figure>
+                <figure class="definition_item">
+                    <img alt="Iconka" class="vyhody__logos" src="./media/images/Vyhody/icon2.svg">
+                    <p>Poskytuje selektivní přístup všem pracovníkům</p>
+                </figure>
+                <figure class="definition_item">
+                    <img alt="Iconka" class="vyhody__logos" src="./media/images/Vyhody/icon3.svg">
+                    <p>Umožňuje outsourcing personalistických procesů</p>
+                </figure>
+                <figure class="definition_item">
+                    <img alt="Iconka" class="vyhody__logos" src="./media/images/Vyhody/icon4.svg">
+                    <p>Zaručuje splnění požadavků ISO a IATF</p>
+                </figure>
+            </div>
+            <hr class="line2">
+            <div class="vyhody__cards ">
+                <div class="cards_item visible">
+                    <p class="cards_item__heading">Firemní procesy</p>
+                    <p class="cards_item__text">Vestibulum fermentum tortor id mi. Duis viverra diam non justo. Vivamus ac leo pretium faucibus. Aenean placerat. Fusce tellus</p>
+                </div>
+                 <div class="cards_item">
+                    <p class="cards_item__heading">Tvorba organizační struktury</p>
+                    <p class="cards_item__text">Vestibulum fermentum tortor id mi. Duis viverra diam non justo. Vivamus ac leo pretium faucibus. Aenean placerat. Fusce tellus</p>
+                </div>
+                 <div class="cards_item">
+                    <p class="cards_item__heading">Popisy pracovních míst</p>
+                    <p class="cards_item__text">Vestibulum fermentum tortor id mi. Duis viverra diam non justo. Vivamus ac leo pretium faucibus. Aenean placerat. Fusce tellus</p>
+                </div>
+                 <div class="cards_item">
+                    <p class="cards_item__heading">Administrace aplikace</p>
+                    <p class="cards_item__text">Vestibulum fermentum tortor id mi. Duis viverra diam non justo. Vivamus ac leo pretium faucibus. Aenean placerat. Fusce tellus</p>
+                </div>
+            </div>
+            <p class="vyhody__cta"><a href="funkce.html" class="button">Prozkoumat všechny funkce</a></p>
+        </section>
+
+        <section class="pribeh">
+            <h2 class="section__heading">Příběh</h2>
+            <figure class="pribeh_info">
+                <figcaption>
+                    <p class="pribeh_info__heading">Jsme dva - Honza a Tomáš</p>
+                    <p class="pribeh_info__text">Praesent ultricies lacus in ligula volutpat feugiat. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Fusce luctus justo eget nisi hendrerit, quis aliquam arcu porta. Cras ultricies, elit sit amet cursus consectetur, risus felis ullamcorper nulla, ut scelerisque sapien lorem non sem. Integer vestibulum ornare ligula, a placerat lectus volutpat ultrices. Aliquam commodo malesuada purus a mollis. Vestibulum pulvinar aliquam libero eu consequat. Cras massa orci, ultrices sed scelerisque id, semper vel neque. Proin a turpis quis nibh cursus hendrerit sit amet vel libero. Nullam sit amet laoreet ante. Mauris sit amet mi vitae arcu dignissim porttitor et in arcu. Nullam eleifend molestie arcu, pretium fermentum orci feugiat eget. Integer dapibus tincidunt ipsum, at rutrum magna rutrum at. Quisque pretium convallis vestibulum.</p>
+                    <p class="pribeh__cta"><a href="#" class="button">Přečíst celý příběh</a></p>
+                </figcaption>
+                <div class="pribeh_info__img"></div>
+            </figure>
+            
+        </section>
+        <hr class="line3">
+        <section class="ONas">
+            <h2 class="section__heading">Napsali o nás</h2>
+            <div class="ONas_cards">
+                <div class="ONas_cards__item">
+                    <img alt="Náhledová fotka 1" src="./media/images/photos/photo1.jpg">
+                    <div class="item__caption">
+                        <p>Lorem ipsum in the good ol days. We are just getting started. We are on the ground floor. Success feeds pride. Pride kills urgency. So nothing fails like success. We always bring our best. Nothing is more fun than serving God with people you love. We are spiritual contributors not spiritual consumers. We give up things we love for things we love move. We are all about the capital C Church. We impress people with our strengths but we connect with people through our weaknesses. We are faith-filled, big-thinking, bet-the-farm risk takers. We will never insult God with safe thinking and safe living. People need to be reminded much more than they need to be instructed. We believe the local church is the hope of the world. Trust the process. What you fear the most reveals where you trust God the least. We can do infinitely more together than we can apart. We want to be known for what we are for, not for what we are against. If we live with integrity, nothing else matters. You don’t have to have the faith to finish, just the faith to start. The Church should be a place where people can belong before they believe. If we don’t live with integrity, nothing else matters. What you hear matters and what you don’t hear matters. We will do anything short of sin to reach people who don’t know Christ. We will laugh hard, loud, and often. Less is more. Stress is bad. Giving is good. Tomorrow matters. To reach people no one is reaching, we’ll have to do what no one is doing. Just because God is silent doesn’t mean God is absent. Excellence honors God and inspires people. The church does not exist for us. We are the Church, and we exist for the world. Because of what He did, this is what we do. We are a micro-church with a mega-vision. An average plan implemented today is better than an great plan started a month from now. The difference between where you are and where God wants you to be is the pain you’re unwilling to endure.</p>
+                        <p>Michaela Komorousová</p>
+                        <p>Personalista, Magna Exteriors s.r.o.</p>
+                    </div>
+                </div>
+                <div class="ONas_cards__item">
+                    <img alt="Náhledová fotka 2" src="./media/images/photos/photo2.jpg">
+                    <div class="item__caption">
+                        <p>Lorem ipsum in the good ol days. We are just getting started. We are on the ground floor. Success feeds pride. Pride kills urgency. So nothing fails like success. We always bring our best. Nothing is more fun than serving God with people you love. We are spiritual contributors not spiritual consumers. We give up things we love for things we love move. We are all about the capital C Church. We impress people with our strengths but we connect with people through our weaknesses. We are faith-filled, big-thinking, bet-the-farm risk takers. We will never insult God with safe thinking and safe living. People need to be reminded much more than they need to be instructed. We believe the local church is the hope of the world. Trust the process. What you fear the most reveals where you trust God the least. We can do infinitely more together than we can apart. We want to be known for what we are for, not for what we are against. If we live with integrity, nothing else matters. You don’t have to have the faith to finish, just the faith to start. The Church should be a place where people can belong before they believe. If we don’t live with integrity, nothing else matters. What you hear matters and what you don’t hear matters. We will do anything short of sin to reach people who don’t know Christ. We will laugh hard, loud, and often. Less is more. Stress is bad. Giving is good. Tomorrow matters. To reach people no one is reaching, we’ll have to do what no one is doing. Just because God is silent doesn’t mean God is absent. Excellence honors God and inspires people. The church does not exist for us. We are the Church, and we exist for the world. Because of what He did, this is what we do. We are a micro-church with a mega-vision. An average plan implemented today is better than an great plan started a month from now. The difference between where you are and where God wants you to be is the pain you’re unwilling to endure.</p>
+                        <p>Michaela Komorousová</p>
+                        <p>Personalista, Magna Exteriors s.r.o.</p>
+                    </div>
+                </div>
+                <div class="ONas_cards__item">
+                    <img alt="Náhledová fotka 3" src="./media/images/photos/photo3.jpg">
+                    <div class="item__caption">
+                        <p>Lorem ipsum in the good ol days. We are just getting started. We are on the ground floor. Success feeds pride. Pride kills urgency. So nothing fails like success. We always bring our best. Nothing is more fun than serving God with people you love. We are spiritual contributors not spiritual consumers. We give up things we love for things we love move. We are all about the capital C Church. We impress people with our strengths but we connect with people through our weaknesses. We are faith-filled, big-thinking, bet-the-farm risk takers. We will never insult God with safe thinking and safe living. People need to be reminded much more than they need to be instructed. We believe the local church is the hope of the world. Trust the process. What you fear the most reveals where you trust God the least. We can do infinitely more together than we can apart. We want to be known for what we are for, not for what we are against. If we live with integrity, nothing else matters. You don’t have to have the faith to finish, just the faith to start. The Church should be a place where people can belong before they believe. If we don’t live with integrity, nothing else matters. What you hear matters and what you don’t hear matters. We will do anything short of sin to reach people who don’t know Christ. We will laugh hard, loud, and often. Less is more. Stress is bad. Giving is good. Tomorrow matters. To reach people no one is reaching, we’ll have to do what no one is doing. Just because God is silent doesn’t mean God is absent. Excellence honors God and inspires people. The church does not exist for us. We are the Church, and we exist for the world. Because of what He did, this is what we do. We are a micro-church with a mega-vision. An average plan implemented today is better than an great plan started a month from now. The difference between where you are and where God wants you to be is the pain you’re unwilling to endure.</p>
+                        <p>Michaela Komorousová</p>
+                        <p>Personalista, Magna Exteriors s.r.o.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="ONas__cta"><a href="#" class="button">Chci si přečíst víc</a></p>
+        </section>
+
+        <section class="aktuality">
+            <h2 class="section__heading">Aktuality</h2>
+            <div class="aktuality__cards">
+                <figure class="aktuality_card">
+                    <figcaption class="aktuality_card__text">
+                        <p class="aktuality_card__heading">Přidán nový modul do administrace</p>
+                        <p>Lorem ipsum dolor sia nostra, per inceptos hymenaeos. Nulla turpis magna, cursu</p>
+                        <p class="aktuality_card__footing">Přečíst celý článek</p>
+                    </figcaption>
+                </figure>
+                <figure class="aktuality_card">
+                    <figcaption class="aktuality_card__text">
+                        <p class="aktuality_card__heading">Přidán nový modul do administrace</p>
+                        <p>Lorem ipsum dolor sia nostra, per inceptos hymenaeos. Nulla turpis magna, cursu</p>
+                        <p class="aktuality_card__footing">Přečíst celý článek</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer_info">
+            <div class="footer_info__data">
+                <img alt="Hlavní logo" src="media/images/mainlogo2.svg">
+                <p class="bolder">Pslib.cz s.r.o.</p>
+                 <p>Masarykova 12345</p>
+                <p>460 00 Liberec</p>
+                <p class="data__text smallnavbar__item-first">+420 777 666 666</p>
+                <p class="data__text smallnavbar__item-second">obchod@l3web.cz</p>
+                <img alt="Iconka Youtube" src="media/images/icons/youtube.svg">
+                <img alt="Iconka LinkedIn" src="media/images/icons/linkedin.svg">
+            </div>
+            <div class="footer_info__data">
+                <p class="data__heading">Videotutoriály</p>
+                <p>CSS</p>
+                <p>Animace</p>
+                <p>Stříhání videa</p>
+                <p>Výběr barev</p>
+                <p>Plánování pracovníků a mezd</p>
+                <p>Všechna videa</p>
+            </div>
+            <div class="footer_info__data">
+                <p class="data__heading">Podpora</p>
+                <p>Přihlášení k účtu</p>
+                <p>Školení</p>
+                <p>FAQ - Časté dotazy</p>
+                <p>Kontakty</p>
+                <p>Videotutoriály</p>
+            </div>
+            <div class="footer_info__data">
+                <p class="data__heading">Menu</p>
+                <p>Úvod</p>
+                <p>Funkce</p>
+                <p>Podpora</p>
+                <p>Ceník</p>
+                <p>Kontakt</p>
+            </div>
+        </div>
+        <div class="footer_ending">
+            <p>© Copyright 2023 - Pslib.cz s.r.o. | Cookies | Podmínky užití</p>
+            <p>Vyrobilo: B interactive</p>
+        </div>
+    </footer>
+</body>
+</html>
